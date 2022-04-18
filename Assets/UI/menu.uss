@@ -1,0 +1,37 @@
+.menu-button {
+    border-left-width: 7px;
+    border-right-width: 7px;
+    border-top-width: 7px;
+    border-bottom-width: 7px;
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    font-size: 26px;
+    -unity-text-align: middle-center;
+    border-left-color: rgb(149, 149, 149);
+    border-right-color: rgb(149, 149, 149);
+    border-top-color: rgb(149, 149, 149);
+    border-bottom-color: rgb(149, 149, 149);
+    background-color: rgba(66, 115, 214, 255);
+    -unity-font-style: bold;
+    width: 300px;
+    height: 50px;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-cubic;
+    justify-content: center;
+    align-items: center;
+    color: rgba(210, 210, 210, 255);
+}
+
+.menu-button:hover {
+    -unity-font-style: bold;
+    border-left-color: rgba(255, 255, 255, 255);
+    border-right-color: rgba(255, 255, 255, 255);
+    border-top-color: rgba(255, 255, 255, 255);
+    border-bottom-color: rgba(255, 255, 255, 255);
+    width: 330px;
+    height: 60px;
+    transition-duration: 500ms;
+    transition-timing-function: ease-out-elastic;
+}
